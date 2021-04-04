@@ -33,7 +33,7 @@ const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   return (
-    <Router>
+    <Router basename="/#">
       <Switch>
         <Provider>
           <Route exact path="/" component={Home} />
